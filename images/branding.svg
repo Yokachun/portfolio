@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-792.000000, -2292.000000)">
+            <g id="Group-2" transform="translate(792.000000, 2293.000000)">
+                <rect id="Rectangle" fill="#DDDDDD" x="0" y="12.9361702" width="38.9639223" height="25.0638298" rx="2"></rect>
+                <ellipse id="Oval" stroke="#DDDDDD" stroke-width="2" cx="19.4819611" cy="2.42553191" rx="2.43524514" ry="2.42553191"></ellipse>
+                <path d="M4.87049029,14.5531915 L17.1838571,4.04255319" id="Path-8" stroke="#DDDDDD" stroke-width="2"></path>
+                <path d="M20.7681543,14.5531915 L33.0815211,4.04255319" id="Path-8-Copy" stroke="#DDDDDD" stroke-width="2" transform="translate(27.262141, 9.297872) scale(-1, 1) translate(-27.262141, -9.297872) "></path>
+                <path d="M34.093432,29.106383 C31.8518507,29.106383 30.0346901,30.9162957 30.0346901,33.1489362 L8.92923219,33.1489362 C8.92923219,30.9162957 7.11207154,29.106383 4.87049029,29.106383 L4.87049029,21.8297872 C7.11207154,21.8297872 8.92923219,20.0198745 8.92923219,17.787234 L30.0346901,17.787234 C30.0346901,20.0198745 31.8518507,21.8297872 34.093432,21.8297872 L34.093432,29.106383 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
