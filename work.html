@@ -25,8 +25,8 @@
     <header class="templateux-navbar"  data-aos="fade-down">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-3 col-3"><div class="site-logo"><a href="index.html" class="animsition-link">Yoka Chun</a></div></div>
-          <div class="col-sm-9 col-9 text-right">
+          <div class="col-sm-3 col-6"><div class="site-logo"><a href="index.html" class="animsition-link">Yoka Chun</a></div></div>
+          <div class="col-sm-9 col-6 text-right">
 
             <button class="hamburger hamburger--spin toggle-menu ml-auto js-toggle-menu" type="button">
               <span class="hamburger-box">
@@ -75,6 +75,8 @@
 	z-index: 1;
 	}
 </style>
+<sctyle>
+</sctyle>
 
     <!-- END templateux-navbar -->
     <section class="templateux-hero"  data-scrollax-parent="true">
@@ -83,39 +85,108 @@
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
           <div class="col-md-10" data-aos="fade-up">
-            <h1>Portfolio</h1>
-            <p class="lead">Working in a number of digital projects from well-established companies to improve and add move value to their products through design.</p>
+            <h1>Recent Works<span class="point">.</span></h1>
+            <p class="lead">I recently had a chance to do exactly that for clients like Toyota, Nescafe, Aptamil, Sun Hung Kai Properties, and others.</p>
             <a href="#next" class="go-down js-smoothscroll"></a>
           </div>
         </div>
       </div>
+      <div class="filter-container" style="z-index: auto; position: static; top: auto;">
+        <div class="filter-list">
+            <a href="javascript:void(0);" class="filter-item active" data-type="all">AllL Project Highlights</a>
+            <a href="javascript:void(0);" class="filter-item " data-type="ecommerce">eCommerce</a>
+            <a href="javascript:void(0);" class="filter-item " data-type="crm">CRM Program</a>
+            <a href="javascript:void(0);" class="filter-item " data-type="business">Business</a>
+            <a href="javascript:void(0);" class="filter-item " data-type="finance">Finance</a>
+            <a href="javascript:void(0);" class="filter-item " data-type="food">Restaurants & Food</a>
+            <a href="javascript:void(0);" class="filter-item " data-type="creative">Creative</a>
+        </div>
+      </div>
     </section>
     <!-- END templateux-hero -->
+    <script>
+
+    </script>
     
-    
+<style>
+  .project-hover-inner h1{
+    color:white;
+    font-size:28px;
+  }
+  .project-hover-inner h3{
+    color:white;
+    font-size:16px;
+    font-weight: lighter;
+    line-height:inherit;
+  }
+  .project-hover-inner h1:after{ 
+    content:"";
+    border-bottom:1px solid white;
+    width: 50px;
+    display: block;
+    margin: 20px auto 20px;
+ }
+ </style>
+
+ <style>
+ .project-title h1{
+    color:black;
+    font-size:20px;
+ }
+ .project-title h2{
+    color:#808080;
+    font-size:16px;
+    font-weight:lighter;
+ }
+</style>
+
     <section class="templateux-portfolio-overlap mb-5" id="next">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6" data-aos="fade-up">
+          <div class="col-md-6 all ecommerce" data-aos="fade-up">
             <a class="project animsition-link" href="work-toyota.html">
               <figure>
                 <img src="images/home-toyota.jpg" alt="Free Template" class="img-fluid">  
               </figure>
               <div class="project-hover">
                 <div class="project-hover-inner">
+                  <h1>Toyota Supra</h1>
+                  <h3>Toyota’s legend Supra new launch online pre-ordering & event support</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 all ecommerce d-block d-md-none" data-aos="fade-up">
+            <a class="project animsition-link" href="work-toyota.html">
+              
+              <div class="project-title">
+                <div class="project-title">
+                  <h1>Toyota Supra</h1>
                   <h2>Toyota’s legend Supra new launch online pre-ordering & event support</h2>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6  all food" data-aos="fade-up" data-aos-delay="100">
             <a class="project animsition-link" href="work-okibook.html">
               <figure>
                 <img src="images/home-okibook.jpg" alt="Free Template" class="img-fluid">  
               </figure>
               <div class="project-hover">
                 <div class="project-hover-inner">
-                  <h2>OKiBook - Hong Kong and Macau restaurant booking with best price guaranteed</h2>
+                  <h1>OKiBook</h1>
+                   <h3>Hong Kong and Macau restaurant booking with best price guaranteed</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 all food d-block d-md-none" data-aos="fade-up">
+            <a class="project animsition-link" href="work-toyota.html">
+              
+              <div class="project-title">
+                <div class="project-title">
+                  <h1>OKiBook</h1>
+                  <h2>Hong Kong and Macau restaurant booking with best price guaranteed</h2>
                 </div>
               </div>
             </a>
@@ -124,19 +195,20 @@
         <!-- END row -->
     
         <div class="row">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 all finance" data-aos="fade-up">
             <a class="project animsition-link" href="work-bluekab.html">
               <figure>
                 <img src="images/home-kab.jpg" alt="Free Template" class="img-fluid">  
               </figure>
               <div class="project-hover">
                 <div class="project-hover-inner">
-                  <h2>BLUEKAB - <p>A solid investment platform</h2>
+                  <h1>BLUEKAB</h1>
+                  <h3>A solid investment platform</h3>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 all" data-aos="fade-up" data-aos-delay="100">
             <a class="project animsition-link" href="work-tour.html">
               <figure>
                 <img src="images/home_tour.jpg" alt="Free Template" class="img-fluid">  
@@ -148,7 +220,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 all" data-aos="fade-up" data-aos-delay="200">
             <a class="project animsition-link" href="work-travoo.html">
               <figure>
                 <img src="images/home_travoo.jpg" alt="Free Template" class="img-fluid">  
@@ -167,7 +239,7 @@
 
 	  <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6" data-aos="fade-up">
+          <div class="col-md-6 all" data-aos="fade-up">
             <a class="project animsition-link" href="work-nescafe.html">
               <figure>
                 <img src="images/home_nescafe.jpg" alt="Free Template" class="img-fluid">  
@@ -179,7 +251,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 all" data-aos="fade-up" data-aos-delay="100">
             <a class="project animsition-link" href="work-petty.html">
               <figure>
                 <img src="images/home_petty.jpg" alt="Free Template" class="img-fluid">  
@@ -195,7 +267,7 @@
         <!-- END row -->
     
         <div class="row">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 all" data-aos="fade-up">
             <a class="project animsition-link" href="work-pernodricard.html">
               <figure>
                 <img src="images/home_pernodricard.jpg" alt="Free Template" class="img-fluid">  
@@ -207,7 +279,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 all" data-aos="fade-up" data-aos-delay="100">
             <a class="project animsition-link" href="work-sino.html">
               <figure>
                 <img src="images/home_sino.jpg" alt="Free Template" class="img-fluid">  
@@ -219,7 +291,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 all" data-aos="fade-up" data-aos-delay="200">
             <a class="project animsition-link" href="work-theforest.html">
               <figure>
                 <img src="images/home_theforest.jpg" alt="Free Template" class="img-fluid">  
@@ -245,7 +317,7 @@
               </figure>
               <div class="project-hover">
                 <div class="project-hover-inner">
-                  <h2>Anyhope - An E-commerce portal for an innovative lighting manufacturer</h2>
+                  <h2>Anyhope</h2>
                 </div>
               </div>
             </a>
@@ -273,7 +345,7 @@
               </figure>
               <div class="project-hover">
                 <div class="project-hover-inner">
-                  <h2>Design Unlimited - Conversion driven web design for a high-end interior company</h2>
+                  <h2>Design Unlimited</h2>
                 </div>
               </div>
             </a>
@@ -321,7 +393,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 " data-aos="fade-up" data-aos-delay="100">
             <a class="project animsition-link" href="work-ness.html">
               <figure>
                 <img src="images/home_ness.jpg" alt="Free Template" class="img-fluid">  
@@ -483,6 +555,7 @@
   
   <script src="js/scripts-all.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/common.js"></script>
   
   </body>
 </html>
