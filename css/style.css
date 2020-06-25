@@ -1,6 +1,6 @@
-body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { font-size: 16px; line-height: 1.8; color: #808080; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Muli , "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
-::-moz-selection { background: yellow; }
+::-moz-selection { background: yellow;  }
 
 ::selection { background: yellow; }
 
@@ -40,6 +40,44 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li:last-child a { margin-right: 0; }
 
+.filter-container { z-index: auto; position: static; top: auto; margin-bottom: 40px;}
+.filter-container .filter-list {
+  max-width: 60%;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  color: #4C4C4C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.filter-container .filter-item.active {
+  color:red;
+  /* font-weight: bold; */
+}
+.filter-container .filter-item {
+  color: #333;
+  line-height: 1.1;
+  position: relative;
+  padding: 5px 10px;
+  font-family: "Muli";
+  display: inline-block;
+  cursor: pointer;
+}
+.filter-container .filter-item:not(:last-child):after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 40%;
+  top: 50%;
+  left: 99%;
+  background-color: #CACACA;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
 @media (max-width: 767.98px) { .templateux-navbar .templateux-menu { position: fixed; width: 100%; background-color: #fff; top: 0; left: 0; margin: 0; text-align: left; height: 100vh; min-height: 400px; padding: 15px; display: none; padding-top: 100px; overflow-y: scroll; }
   .templateux-navbar .templateux-menu ul { margin-left: 40px; }
   .templateux-navbar .templateux-menu ul li { display: block; margin-bottom: 10px; }
@@ -67,7 +105,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero { background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; }
 
-.templateux-hero .lead { font-size: 28px; }
+.templateux-hero .lead { font-size: 24px; }
 
 @media (max-width: 991.98px) { .templateux-hero .lead { font-size: 20px; } }
 
@@ -81,13 +119,13 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero.overlay .lead { color: #fff; opacity: .5; }
 
-.templateux-hero, .intro { height: 90vh; min-height: 700px; }
+.templateux-hero, .intro { min-height: 700px; }
 
 .templateux-hero h1, .intro h1 { color: #000; font-size: 70px; }
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
-.templateux-portfolio-overlap { position: relative; margin-top: -100px; }
+/* .templateux-portfolio-overlap { position: relative; margin-top: -100px; } */
 
 @media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
 
@@ -185,7 +223,7 @@ textarea.form-control { height: inherit; }
 
 .go-down:hover:before { height: 70px; }
 
-.templateux-media h3 { font-size: 18px; color: #dc3545; }
+.templateux-media h3 { font-size: 18px; color: #000; }
 
 .templateux-media .icon span { font-size: 40px; color: #ccc; }
 
@@ -219,7 +257,7 @@ textarea.form-control { height: inherit; }
 
 .work-detail { margin-bottom: 50px; }
 
-.work-detail .caption { display: block; text-transform: uppercase; font-size: 15px; color: #ccc; }
+.work-detail .caption { display: block; text-transform: uppercase; font-size: 16px; color: #ccc; }
 
 .work-detail strong { font-weight: normal; color: #000; }
 
@@ -303,3 +341,9 @@ textarea.form-control { height: inherit; }
 .block-38 .block-38-header .block-38-subheading { color: #b3b3b3; margin: 0 0 20px 0; text-transform: uppercase; font-size: 15px; }
 
 .block-38 .block-38-header img { width: 90px; border-radius: 50%; margin-bottom: 20px; }
+
+.nextButton {padding-right: 10px;}
+
+.previousButton {padding-left: 10px;}
+
+.point {color: red}
